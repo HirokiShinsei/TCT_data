@@ -40,12 +40,9 @@ def voc_ap(recall, precision, use_07_metric=False):
 def custom_voc_eval(gt_csv, pred_csv, label_list = ['1'], ovthresh=0.5, use_07_metric=False):
     """
     Do custom eval, include mAP and FROC,
-    此函数已改为多类别分别计算AP值,并返回mAP,需传入label_list循环各类别,
-    计算froc则在froc.py中进行
-    
     gt_csv: path/to/ground_truth_csv
     pred_csv: path/to/pred_csv
-    label_list: 用于循环计算ap值的label列表
+    label_list
     ovthresh: iou threshold
     
     """
