@@ -6,7 +6,7 @@
 Once you clone the repo, please run the following command to create the conda environment.
 
 ```bash
-$ conda env create --file environment.yml
+$ conda env create --file environment.yaml
 ```
 
 ## Usage
