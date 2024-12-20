@@ -1,4 +1,4 @@
-name: seg
+name: tct
 channels:
   - conda-forge
   - defaults
