@@ -1,7 +1,9 @@
 # TCT_data
-A large annotated cervical cytology images dataset for AI models to aid cervical cancer screening
+A large annotated cervical cytology images dataset for AI models to aid cervical cancer screening.
 *scientific data*
+
  [Journal Link](https://www.nature.com/articles/s41597-025-04374-5)
+ 
 <p align="left"><img width="600" src="https://github.com/zx333445/TCT_data/blob/main/flow.png?raw=true"></p>
 
 ## Installation
