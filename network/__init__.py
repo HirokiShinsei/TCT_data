@@ -1,6 +1,5 @@
 #!/usr/bin/env python
 # coding=utf-8
-from .attention_layer import *
 from .backbone_utils import *
 from .boxes import *
 from .det_utils import *
@@ -14,7 +13,6 @@ from .pooler import *
 from .roi_head import *
 from .rpn_function import *
 from .transform import *
-from .model_without_fpn import *
 from .fcos import *
 from .retinanet import *
 from .ssd import *
