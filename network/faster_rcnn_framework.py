@@ -12,7 +12,6 @@ from torchvision.ops import MultiScaleRoIAlign
 from .roi_head import CascadeRoIHeads,RoIHeads
 from .transform import GeneralizedRCNNTransform
 from .rpn_function import AnchorsGenerator, RPNHead, RegionProposalNetwork
-from .ram_head import RAM_Head,RoiAtt
 
 
 class FasterRCNNBase(nn.Module):
